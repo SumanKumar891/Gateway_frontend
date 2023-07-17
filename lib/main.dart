@@ -978,10 +978,14 @@ class _FieldPageState extends State<FieldPage> {
 
   @override
   Widget build(BuildContext context) {
+    double height = MediaQuery.of(context).size.height;
+    double width = MediaQuery.of(context).size.width;
+
     return Scaffold(
       appBar: AppBar(
         title: Row(
           children: [
+
             Image.asset(
               'assets/images/awadh_logo2.jpeg',//change the logo image
               width: 150,
@@ -996,12 +1000,14 @@ class _FieldPageState extends State<FieldPage> {
               height: 80,
             ),*/
             Text('AWaDH Cow Monitoring ', style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold)),
-          ],
+
+        ],
         ),
       ),
-      body: Padding(
+      body:  SingleChildScrollView(
         padding: const EdgeInsets.all(16.0),
         child: Column(
+
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             TextField(
