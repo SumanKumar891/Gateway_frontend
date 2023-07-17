@@ -983,7 +983,7 @@ class _FieldPageState extends State<FieldPage> {
         title: Row(
           children: [
             Image.asset(
-              'assets/images/awadh_logo2.jpeg',
+              'assets/images/awadh_logo2.jpeg',//change the logo image
               width: 150,
               height: 100,
 
