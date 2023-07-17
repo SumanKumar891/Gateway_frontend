@@ -995,7 +995,7 @@ class _FieldPageState extends State<FieldPage> {
               width: 80,
               height: 80,
             ),*/
-            Text('AWaDH Cow Monitoring ', style: TextStyle(fontSize: 30.0, fontWeight: FontWeight.bold)),
+            Text('AWaDH Cow Monitoring ', style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold)),
           ],
         ),
       ),
