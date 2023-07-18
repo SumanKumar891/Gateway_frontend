@@ -982,20 +982,24 @@ class _FieldPageState extends State<FieldPage> {
       appBar: AppBar(
         title: Row(
           children: [
-            Image.asset(
+
+
+
+            /*Image.asset(
               'build/assets/images/awadh_logo2.jpeg',//change the logo image
               width: 150,
               height: 100,
 
-            ),
-            /*
+            ),*/
+
+
+            Text('Cow Monitor ', style: TextStyle(fontSize: 18.0, fontWeight: FontWeight.bold)),
             Image.network(
               //'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Cow_%28Fleckvieh_breed%29_Oeschinensee_Slaunger_2009-07-07.jpg/1200px-Cow_%28Fleckvieh_breed%29_Oeschinensee_Slaunger_2009-07-07.jpg',
-              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREDPOiOb5z1eAIkQWA6XBv5FyBU2G1ijXK8w&usqp=CAU',
-              width: 80,
-              height: 80,
-            ),*/
-            Text('AWaDH Cow Monitoring ', style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold)),
+              'https://yt3.googleusercontent.com/5qoF2sM_UgWK8OSwgIZOZfV76-H2UmkSkwEO91UaEljPLlV3Yi76fe6G2A-RsKKjYS0GYh6kjQ=s900-c-k-c0x00ffffff-no-rj',
+              width: 60,
+              height: 60,
+            ),
           ],
         ),
       ),
