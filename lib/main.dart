@@ -552,6 +552,16 @@ class printTabular extends StatelessWidget {
 }
 */
 
+/*
+def pre_process(data):
+    
+    if data >= 128:
+        data -= 256
+    sf = 6.4 # Scaling Factor
+
+    return str(round(data/sf, 2))
+*/
+
 import 'dart:convert';
 import 'dart:io';
 import 'package:flutter/material.dart';
@@ -823,6 +833,7 @@ class _FieldPageState extends State<FieldPage> {
     print(deviceId);
     print(starttime);
     print(endtime);
+    //ENDTIME<STARTTIME
     final url = Uri.parse(
         'https://wcelyqvyi7.execute-api.us-east-1.amazonaws.com/deployment/cow?deviceId=$deviceId&starttime=$starttime&endtime=$endtime'); // Replace with your API endpoint
     //final url = Uri.parse('https://wcelyqvyi7.execute-api.us-east-1.amazonaws.com/deployment/cow?deviceId=105&starttime=1688132921&endtime=1688133222'); // Replace with your API endpoint
